@@ -1,6 +1,6 @@
 {
   "name": "shws",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "modern screen saver :)",
   "keywords": [
     "screen-saver",
@@ -20,6 +20,10 @@
   "license": "ISC",
   "author": "Fynjirby",
   "main": "main.js",
+  "bin": {
+    "shws": "./main.js",
+    "bear": "./main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
